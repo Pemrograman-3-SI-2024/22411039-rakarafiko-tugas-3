@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>whatever</title>
+    <title>Raka Rafiko</title>
     <link rel="stylesheet" href="public/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
     <!-- Header Start -->
     <header class="sticky top-0 left-0 z-10 flex w-full items-center bg-dark">
         <div class="container"> 
@@ -47,7 +46,7 @@
       <!-- Header End -->
 
     <!-- hero section start -->
-    <section id="home" class="pt-36 bg-slate-800">
+    <section id="home" class="pt-20 pb-10 px-10 bg-dark">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
@@ -68,13 +67,13 @@
     <!-- hero end -->
 
     <!-- About start -->
-    <section id="about" class="pt-36 pb-32 bg-dark">
+    <section id="about" class="pt-36 pb-32 px-9 bg-slate-800">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-4">About Me</h4>
-                    <h2 class="font-bold text-white text-3xl mb-5 max-w-md lg:text-4xl">Curiosity is part of my identity</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">I'm a college student who's currently looking out for my passion and in this journey i'd like to try and explore new things but also not really went overboard with it because it overwhelms me lol.</p>
+                    <h2 class="font-bold text-white text-2xl mb-5 max-w-md lg:text-4xl">Curiosity is part of my identity</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">I'm a college student who's currently looking out for my passion and in this journey i'd like to try and explore new things but also not really went overboard with it because it overwhelms me.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <h3 class="font-semibold text-white text-2xl mb-4 lg:text-3xl lg:pt-10">Be Mutual</h3>
@@ -102,7 +101,7 @@
     <!-- about end -->
 
      <!-- Portfolio Section Start -->
-     <section id="portfolio" class="pt-36 pb-16 bg-slate-800">
+     <section id="portfolio" class="pt-36 pb-16 bg-dark">
         <div class="container">
           <div class="w-full px-4">
             <div class="mx-auto mb-16 max-w-xl text-center">
@@ -120,7 +119,7 @@
                 <img src="public/img/portfolio.png" alt="Game Portal" width="w-full" />
               </div>
               <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white">Game Portal</h3>
-              <p class="text-base font-medium text-secondary">a html and css game store landing page website(college task).</p>
+              <p class="text-base font-medium text-secondary">a html and css game store landing page website (Homepage).</p>
             </div>
           </div>
           <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
@@ -128,6 +127,7 @@
               <div class="overflow-hidden rounded-md shadow-md">
                 <img src="public/img/portofolio2.png" alt="Game Portal" width="w-full" />
               </div>
+              <p class="text-base font-medium text-secondary text-center pt-5">(Top Picks Section)</p>
             </div>
           </div>
           <div class="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
@@ -135,6 +135,7 @@
               <div class="overflow-hidden rounded-md shadow-md">
                 <img src="public/img/portofolio3.png" alt="Game Portal" width="w-full" />
               </div>
+              <p class="text-base font-medium text-secondary text-center pt-5">(Game Lists Section)</p>
             </div>
           </div>
         </div>
@@ -142,35 +143,43 @@
       <!-- Portfolio Section End -->
 
       <!-- Contact Section Start -->
-    <section id="contact" class="pt-36 pb-32 bg-dark">
+    <section id="contact" class="pt-36 pb-32 bg-slate-800">
         <div class="container">
           <div class="w-full px-4">
             <div class="mx-auto mb-16 max-w-xl text-center">
               <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
-              <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">Contact Me</h2>
-              <p class="text-md font-medium text-secondary md:text-lg">Feel free to contact for any important inquiries.</p>
+              <h2 class="mb-4 text-3xl font-bold text-white sm:text-2xl lg:text-4xl">Contact Me</h2>
+              <p class="text-md font-medium text-secondary md:text-lg">Feel free to contact me for any important inquiries.</p>
             </div>
           </div>
-  
-          <form>
-            <div class="w-full lg:mx-auto lg:w-2/3">
-              <div class="mb-8 w-full px-4">
-                <label for="name" class="text-base font-bold text-primary">Name</label>
-                <input type="text" id="name" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+          
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-primary">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-white bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
               </div>
-              <div class="mb-8 w-full px-4">
-                <label for="email" class="text-base font-bold text-primary">Email</label>
-                <input type="email" id="email" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-primary">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-white bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
               </div>
-              <div class="mb-8 w-full px-4">
-                <label for="message" class="text-base font-bold text-primary">Message</label>
-                <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-primary">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-white bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
               </div>
-              <div class="w-full px-4">
-                <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Send</button>
+              <div class="p-2 w-full">
+                <button class="w-full rounded-full bg-primary py-2 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Send</button>
               </div>
             </div>
           </form>
+              </div>
+
         </div>
       </section>
       <!-- Contact Section End -->
